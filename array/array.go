@@ -1,6 +1,9 @@
 package array
 
-import "fmt"
+import (
+	"crypto/sha256"
+	"fmt"
+)
 
 func PrintArray() {
 	var a [3]int
@@ -43,4 +46,10 @@ func CompareArray() {
 	fmt.Println(a == b, a == c, b == c)
 	// compile error, cannot compare [2]int == [3] int
 	// d := [3]int{1, 2}
+}
+
+func CalculateSHA() {
+	// 生成字符的SHA
+	c := sha256.Sum256([]byte("x"))
+	fmt.Printf("%x", c)
 }

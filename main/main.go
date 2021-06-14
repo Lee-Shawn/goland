@@ -6,4 +6,5 @@ func main() {
 	array.PrintArray()
 	array.InitArray()
 	array.CompareArray()
+	array.CalculateSHA()
 }
