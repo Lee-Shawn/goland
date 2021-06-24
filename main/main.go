@@ -1,10 +1,13 @@
 package main
 
-import "golang/array"
+import (
+	"golang/slice"
+)
 
 func main() {
-	array.PrintArray()
+	/*array.PrintArray()
 	array.InitArray()
 	array.CompareArray()
-	array.CalculateSHA()
+	array.CalculateSHA()*/
+	slice.SubSlice()
 }
