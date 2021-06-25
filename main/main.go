@@ -10,4 +10,5 @@ func main() {
 	array.CompareArray()
 	array.CalculateSHA()*/
 	slice.SubSlice()
+	slice.Slice1()
 }
